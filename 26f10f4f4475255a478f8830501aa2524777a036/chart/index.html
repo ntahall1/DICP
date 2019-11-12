@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Dudley ICP - 11 Nov 2019</title>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-core.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-more.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-pwextensions.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-menu.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-toolbar.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLIFrameComponent.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLPageLoadProgressComponent.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLSplitView.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLScrollComponent.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLOutlineComponent.js"></script>
+    <script src="rsc/net.projectwizards.MerlinWeb.MEWResourcesComponent.js"></script>
+    <script src="rsc/net.projectwizards.MerlinWeb.MEWGanttLinesController.js"></script>
+    <script src="rsc/net.projectwizards.MerlinWeb.MEWGanttComponent.js"></script>
+    <script src="rsc/net.projectwizards.MerlinWeb.MEWGanttOutlineController.js"></script>
+
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.Weblitz.WBLSplitViewStyleSheet.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.Weblitz.WBLScrollComponentStyleSheet.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.Weblitz.WBLOutlineComponentStyleSheet.css"/>
+
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.MerlinWeb.MEWGanttChartStyleSheet.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.MerlinWeb.MEWResourcesComponentStyleSheet.css"/>
+
+    <style>
+        body {
+            width:  100%;
+            height: 100%;
+            margin:   0;
+            padding:  0;  
+            overflow: hidden;
+            background-color: #525759;
+            font: 1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        }
+
+        #contentContainer {
+            position: absolute;
+            top: 10px;
+            bottom: 20px;
+            left: 10px;
+            right: 10px;		
+            overflow:hidden;
+            background-color: white;
+            border-radius: 5px;
+        }
+        
+        .content.background {
+            /* The related background color in Merlin is defined in METheme defaultProjectViewBackgroundColor */
+            background-color: rgba(251, 251, 251, 1.0);
+        }
+
+        #madewidth {
+            color:rgba(255, 255, 255, 0.65);
+            text-decoration: none;
+            position:absolute;
+            right:10px;
+            bottom:5px;
+            font-size:9px;
+        }
+
+    </style>
+</head>
+<body>
+    <script>PWPrepareForPageLoadProgress();</script><noscript id="pageContent">
+        <a id="madewidth" target="_blank" href="https://www.projectwizards.net">Made with Merlin Project</a>
+        <div id="contentContainer" class="document">
+            
+<style>
+.document {font-family: Helvetica Neue; font-weight: normal; font-size: 12.5px; font-style: normal; font-stretch: normal; text-decoration: none; color: rgba(0,0,0,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box {background-color: rgba(195,216,250,1.0000); fill: rgba(195,216,250,1.0000); border-width: 2px; stroke-width: 2px; border-color: rgba(0,128,255,1.0000); stroke: rgba(0,128,255,1.0000); border-radius: 2.5px;}
+
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box.c-hyperlink {text-decoration: underline; color: rgba(0,0,223,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box.c-onTime {background-color: rgba(211,240,189,1.0000); fill: rgba(211,240,189,1.0000); border-color: rgba(116,186,65,1.0000); stroke: rgba(116,186,65,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box.c-slightlyBehindSchedule {background-color: rgba(250,234,196,1.0000); fill: rgba(250,234,196,1.0000); border-color: rgba(254,185,0,1.0000); stroke: rgba(254,185,0,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box.c-behindSchedule {background-color: rgba(251,226,223,1.0000); fill: rgba(251,226,223,1.0000); border-color: rgba(235,0,0,1.0000); stroke: rgba(235,0,0,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box.c-weakConflicts {color: rgba(229,140,0,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box.c-strongConflicts {color: rgba(229,0,0,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box.c-criticalPath {border-width: 4px; stroke-width: 4px;}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box.c-changed {background-color: rgba(255,251,61,0.2000); fill: rgba(255,251,61,0.2000);}
+
+
+
+
+
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box .cell01 {font-weight: bold;}
+
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box .horizontalSeparator {color: rgba(10,83,163,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box .horizontalSeparator.c-onTime {color: rgba(76,120,43,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box .horizontalSeparator.c-slightlyBehindSchedule {color: rgba(161,119,8,1.0000);}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box .horizontalSeparator.c-behindSchedule {color: rgba(142,8,5,1.0000);}
+
+
+
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .box .groupBoundary {border-width: 1px; stroke-width: 1px; border-style: none; border-radius: 2.5px;}
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .netPlanLine {color: rgba(63,63,63,1.0000);}
+
+
+
+.document #ID-CQPi__NCSSW_eRROL_ufoA.view .netPlanLine.c-dependencyLines {color: rgba(0,0,0,1.0000);}
+
+</style>
+
+    
+    <iframe id="26849670-98AB-4DC4-A595-1C21F71E699B" style="width:100%; height:100%;" seamless="1" frameBorder="0" src="rsc/D733BC20-3EB3-4DF9-96BA-5A434F1DF553.png"/>
+    
+    
+
+
+        </div>
+    </noscript>
+</body>
+</html>

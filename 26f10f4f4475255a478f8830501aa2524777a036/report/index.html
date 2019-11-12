@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Dudley ICP - 11 Nov 2019</title>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-core.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-more.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-pwextensions.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-menu.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.mootools-toolbar.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLIFrameComponent.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLPageLoadProgressComponent.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLSplitView.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLScrollComponent.js"></script>
+    <script src="rsc/net.projectwizards.Weblitz.WBLOutlineComponent.js"></script>
+    <script src="rsc/net.projectwizards.MerlinWeb.MEWResourcesComponent.js"></script>
+    <script src="rsc/net.projectwizards.MerlinWeb.MEWGanttLinesController.js"></script>
+    <script src="rsc/net.projectwizards.MerlinWeb.MEWGanttComponent.js"></script>
+    <script src="rsc/net.projectwizards.MerlinWeb.MEWGanttOutlineController.js"></script>
+
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.Weblitz.WBLSplitViewStyleSheet.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.Weblitz.WBLScrollComponentStyleSheet.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.Weblitz.WBLOutlineComponentStyleSheet.css"/>
+
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.MerlinWeb.MEWGanttChartStyleSheet.css"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="rsc/net.projectwizards.MerlinWeb.MEWResourcesComponentStyleSheet.css"/>
+
+    <style>
+        body {
+            width:  100%;
+            height: 100%;
+            margin:   0;
+            padding:  0;  
+            overflow: hidden;
+            background-color: #525759;
+            font: 1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+        }
+
+        #contentContainer {
+            position: absolute;
+            top: 10px;
+            bottom: 20px;
+            left: 10px;
+            right: 10px;		
+            overflow:hidden;
+            background-color: white;
+            border-radius: 5px;
+        }
+        
+        .content.background {
+            /* The related background color in Merlin is defined in METheme defaultProjectViewBackgroundColor */
+            background-color: rgba(251, 251, 251, 1.0);
+        }
+
+        #madewidth {
+            color:rgba(255, 255, 255, 0.65);
+            text-decoration: none;
+            position:absolute;
+            right:10px;
+            bottom:5px;
+            font-size:9px;
+        }
+
+    </style>
+</head>
+<body>
+    <script>PWPrepareForPageLoadProgress();</script><noscript id="pageContent">
+        <a id="madewidth" target="_blank" href="https://www.projectwizards.net">Made with Merlin Project</a>
+        <div id="contentContainer" class="document">
+            
+<style>
+.document {font-family: Helvetica Neue; font-weight: normal; font-size: 12.5px; font-style: normal; font-stretch: normal; text-decoration: none; color: rgba(0,0,0,1.0000);}
+
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .modules .title {font-weight: bold; font-size: 140%;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list {font-size: 95%;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list .header {font-weight: bold; background-color: rgba(0,0,0,0.1250); fill: rgba(0,0,0,0.1250); padding-left: 0.6em; padding-right: 0.6em; padding-top: 0.2em; padding-bottom: 0.2em;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list .row .cell {padding-left: 0.6em; padding-right: 0.6em; padding-top: 0.2em; padding-bottom: 0.2em;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list .background .evenRow {background-color: rgba(255,255,255,0.0000); fill: rgba(255,255,255,0.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list .background .oddRow {background-color: rgba(0,0,0,0.0620); fill: rgba(0,0,0,0.0620);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list .separatorLines {color: rgba(0,0,0,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list .separatorLines .header {border-style: solid;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list .separatorLines .inHeader {border-style: solid;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .list .separatorLines .border {border-style: solid;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series {color: rgba(39,121,201,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-series2 {color: rgba(235,121,24,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-series3 {color: rgba(135,61,143,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-series4 {color: rgba(14,76,18,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-series5 {color: rgba(71,71,71,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-series6 {color: rgba(133,23,23,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-series7 {color: rgba(142,142,142,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-positive {color: rgba(116,186,65,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-negative {color: rgba(235,0,0,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series.c-neutral {color: rgba(39,121,201,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series .bars {border-width: 2px; stroke-width: 2px; border-style: solid; border-radius: 3.75px;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series .bars.c-positive {color: rgba(211,240,189,1.0000); border-color: rgba(76,120,43,1.0000); stroke: rgba(76,120,43,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series .bars.c-negative {color: rgba(251,226,223,1.0000); border-color: rgba(142,8,5,1.0000); stroke: rgba(142,8,5,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series .bars.c-neutral {color: rgba(195,216,250,1.0000); border-color: rgba(10,83,163,1.0000); stroke: rgba(10,83,163,1.0000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series .bars.c-projection {border-width: 3px; stroke-width: 3px; border-style: dashed; border-color: rgba(25,25,25,0.8000); stroke: rgba(25,25,25,0.8000);}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series .line {border-style: solid;}
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .series .line.c-projection {border-style: dotted;}
+
+
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .axes {border-style: solid;}
+
+
+.document #ID-w9oTdKFhSb2f1kXXdncKJQ.view .chart .axes .yAxes .grid {color: rgba(63,63,63,1.0000); border-style: dotted;}
+</style>
+
+    
+    <iframe id="14FFAA65-F6BF-4D59-9E0D-7502B521BD61" style="width:100%; height:100%;" seamless="1" frameBorder="0" src="rsc/22842CCB-83DA-4121-A05C-DBA04C294DFE.png"/>
+    
+    
+
+
+        </div>
+    </noscript>
+</body>
+</html>
