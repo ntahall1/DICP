@@ -10,6 +10,6 @@ Latest published version: 20191111NH06 (as per Strategic Case submission on 11 N
 <li><a href="mindmap/">Mind map</a></li>
 </ul>
 <P>
-I can change layout/content if needed.  Email or call me if any queries.
+There are a bunch of standard reports, some of which will be more useful than otheres.  I can change layout/content/filters/etc if needed.  Email or call me if any queries.
 <P>
 Nick
