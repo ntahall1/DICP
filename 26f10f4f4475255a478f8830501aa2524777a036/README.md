@@ -9,5 +9,7 @@ Latest published version: 20191111NH06 (as per Strategic Case on 11 nov 2019)
 <li><a href="chart/">Org chart style</a></li>
 <li><a href="mindmap/">Mind map</a></li>
 </ul>
+<P>
 I can change layout/content if needed.  Email or call me if any queries.
+<P>
 Nick
