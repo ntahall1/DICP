@@ -1,4 +1,4 @@
-Latest published version: 20191111NH06 (as per Strategic Case on 11 nov 2019)
+Latest published version: 20191111NH06 (as per Strategic Case submission on 11 Nov 2019)
 <ul>
 <li><a href="status/">Status summary</a></li>
 <li><a href="report/">Status report</a></li>
